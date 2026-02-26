@@ -18,11 +18,6 @@ try:
 except ImportError:
     MATPLOTLIB_AVAILABLE = False
 
-
-# ==========================================
-# 1️⃣ PARSING & INTELLIGENCE CLASSES (BACKEND)
-# ==========================================
-
 class FirewallParser:
     """Uses Regex and structural rules to identify and extract metrics from firewall strings."""
     def __init__(self):
